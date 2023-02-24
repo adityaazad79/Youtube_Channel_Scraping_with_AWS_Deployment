@@ -30,7 +30,6 @@ def index():
         try:
             searchString = request.form['content']
             options = webdriver.ChromeOptions()
-            # options.headless=True
             options.add_argument("--headless")
             browser = webdriver.Chrome(
                 options=options, service=Service(ChromeDriverManager().install()))
@@ -38,7 +37,6 @@ def index():
             browser.execute_script("window.scrollTo(0,400)", "")
 
             youtubePage = browser.page_source
-            youtubePage.encoding='utf-8'
             soup = bs(youtubePage, "html.parser")
 
             link = []

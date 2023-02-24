@@ -107,3 +107,85 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 103-594-384
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-622-163
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:root:'str' object has no attribute 'encoding'
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:31] "POST /scrape HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:root:'str' object has no attribute 'encoding'
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:44:41] "POST /scrape HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/aditya/Desktop/LeetcodeApi/Api/Youtube-Channel-Video-Scraping/application.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-622-163
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:03] "POST /scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:03] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-622-163
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:root:'str' object has no attribute 'encoding'
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:46] "POST /scrape HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:root:'str' object has no attribute 'encoding'
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:45:55] "POST /scrape HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:root:'str' object has no attribute 'encoding'
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:46:02] "POST /scrape HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:root:'str' object has no attribute 'encoding'
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:46:09] "POST /scrape HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-622-163
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+INFO:WDM:Driver [/home/aditya/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:46:34] "POST /scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:46:34] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2023 22:46:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
