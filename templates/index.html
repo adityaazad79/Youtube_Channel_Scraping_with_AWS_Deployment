@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}        
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Youtube Channel Scraper</h1>
+
+    <div class="form">
+        <form action="/scrape" method="POST">
+            <p>Paste the youtube channel video section link</p>
+            <input type="text" name="content" id="content">
+            <input type="submit" value="Scrape">
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Review Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="table-users">
+      <div class="header">Scrape Data</div>
+
+      <table cellspacing="0">
+        <tr>
+          <th>Video URL</th>
+          <th width="230">Thumbnail URL</th>
+          <th>Title</th>
+          <th>No of Views</th>
+          <th>Time of Post</th>
+        </tr>
+        {% for sc_data in reviews %}
+        <tr>
+          <td>{{sc_data['link']}}</td>
+          <td>{{sc_data['thumbnail']}}</td>
+          <td>{{sc_data['title']}}</td>
+          <td>{{sc_data['views']}}</td>
+          <td>{{sc_data['time']}}</td>
+          {% endfor %}
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
