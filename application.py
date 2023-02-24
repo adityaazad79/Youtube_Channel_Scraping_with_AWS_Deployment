@@ -38,7 +38,7 @@ def index():
             browser.execute_script("window.scrollTo(0,400)", "")
 
             youtubePage = browser.page_source
-
+            youtubePage.encoding='utf-8'
             soup = bs(youtubePage, "html.parser")
 
             link = []
