@@ -1,10 +1,14 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS, cross_origin
 from bs4 import BeautifulSoup as bs
+from urllib.request import urlopen as uReq
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 import logging
+import requests
+import pymongo
+
 
 logging.basicConfig(filename="scrapper.log", level=logging.INFO)
 
