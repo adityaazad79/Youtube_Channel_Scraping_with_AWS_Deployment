@@ -31,8 +31,11 @@ def index():
             searchString = request.form['content']
             options = webdriver.ChromeOptions()
             options.add_argument("--headless")
-            browser = webdriver.Chrome(
-                options=options, service=Service(ChromeDriverManager().install()))
+#             browser = webdriver.Chrome(
+#                 options=options, service=Service(ChromeDriverManager().install()))
+            browser  = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+
+            
             browser.get(searchString)
             browser.execute_script("window.scrollTo(0,400)", "")
 
