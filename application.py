@@ -5,12 +5,7 @@ from urllib.request import urlopen as uReq
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
-# import logging
-# import requests
-# import pymongo
 
-# def lambda_handler(event, context):
-# logging.basicConfig(filename="scrapper.log", level=logging.INFO)
 
 application = Flask(__name__)
 app = application
@@ -31,8 +26,6 @@ def index():
             searchString = request.form['content']
             options = webdriver.ChromeOptions()
             options.add_argument("--headless")
-#             browser = webdriver.Chrome(
-#                 options=options, service=Service(ChromeDriverManager().install()))
             browser  = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
             
@@ -58,7 +51,6 @@ def index():
                     link.append("https://www.youtube.com"+str(i.get("href")))
             except:
                 print("Error in Link")
-                # logging.info("Error in Link")
 
             # Thumbnail
             try:
@@ -68,7 +60,6 @@ def index():
                     thumbnail.append(str(i['src']))
             except:
                 print("Error in Thumbnail Link")
-                # logging.info("Error in Thumbnail Link")
 
             # Title
             try:
@@ -78,7 +69,6 @@ def index():
                     title.append(str(i.get("title")))
             except:
                 print("Error in Title")
-                # logging.info("Error in Title")
 
             # No of views
             try:
@@ -87,7 +77,6 @@ def index():
                     views.append(str(i.find_all("span")[1].text))
             except:
                 print("Error in no of views")
-                # logging.info("Error in no of views")
 
             # Time of Posting
             try:
@@ -96,7 +85,6 @@ def index():
                     time.append(str(i.find_all("span")[2].text))
             except:
                 print("Error in Time of Posting")
-                # logging.info("Error in Time of Posting")
 
             sc_data = []
             for i in range(5):
@@ -111,13 +99,12 @@ def index():
 
                 sc_data.append(dict)
                 
-            with open("yt.csv", "w") as f:
+            with open("youtube_scrap.csv", "w") as f:
                 for i in sc_data:
                     f.write(str(i)+"\n")
 
             return render_template('results.html', reviews=sc_data)
         except Exception as e:
-            # logging.info(e)
             print(e)
             err = str(e)
             return 'something is wrong'+err
