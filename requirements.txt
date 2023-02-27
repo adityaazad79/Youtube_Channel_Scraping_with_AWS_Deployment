@@ -1,4 +1,4 @@
-selenium==3.141.0
+selenium==4.0.0
 webdriver_manager
 beautifulsoup4==4.9.1
 bs4==0.0.1
