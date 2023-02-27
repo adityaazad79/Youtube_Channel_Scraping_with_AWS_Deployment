@@ -116,7 +116,8 @@ def index():
         except Exception as e:
             # logging.info(e)
             print(e)
-            return 'something is wrong'
+            err = str(e)
+            return 'something is wrong'+err
 
     else:
         return render_template('index.html')
