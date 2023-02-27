@@ -1,5 +1,5 @@
 selenium==3.141.0
-webdriver_manager==3.8.5
+webdriver_manager==2.37
 beautifulsoup4==4.9.1
 bs4==0.0.1
 certifi==2020.6.20
