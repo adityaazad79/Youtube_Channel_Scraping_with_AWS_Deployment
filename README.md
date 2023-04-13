@@ -23,11 +23,11 @@ AWS Deployment Link - [Click here for live site](http://youtubescraper-env.eba-p
 ## Screenshots
 Screenshot 1
 
-![Home Page Loading...](Screenshots/ss1.png"Home Page")
+![Home Page Loading...](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/blob/main/Screenshots/ss1.png?raw=true)
 
 Screenshot 2
 
-![Scraped Result Loading...](Screenshots/ss2.png"Scraped Result")
+![Scraped Result Loading...](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/blob/main/Screenshots/ss2.png?raw=true)
 
 
 ## Requirements
