@@ -43,6 +43,7 @@ This application requires the following Python libraries:
 ## Technologies Used
 
 - Python 3.7
+- Github v1
 - AWS - Elastic Beanstalk
 - AWS - CodePipeline
 
