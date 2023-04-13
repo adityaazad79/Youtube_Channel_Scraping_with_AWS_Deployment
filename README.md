@@ -57,7 +57,7 @@ This application requires the following Python libraries:
 3. Download the Chrome driver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and add it to your system path.
 4. Run the application:
 
-    $ python app.py
+    $ python application.py
 
 5. Open your web browser and go to http://127.0.0.1:8000 to see the application running.
 
