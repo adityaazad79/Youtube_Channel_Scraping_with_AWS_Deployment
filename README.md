@@ -64,11 +64,11 @@ This application requires the following Python libraries:
 
 ## Usage
 
-1. Input a search query in the text box and click the "Search" button.
+1. Input a search query in the text box and click the "Scrape" button.
 
 2. The application will scrape YouTube for the top 5 videos related to the search query, and display their links, titles, thumbnails, views and posting times.
 
-3. The scraped data will also be saved in a CSV file named youtube_scrap.csv in the same directory as the app.py file.
+3. The scraped data will also be saved in a CSV file named youtube_scrap.csv in the same directory as the application.py file.
 
 ## Contributing
 
