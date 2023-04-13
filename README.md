@@ -16,18 +16,19 @@ The extracted data is then saved in a CSV file named youtube_scrap.csv.
 
 The project has been deployed on AWS successfully with all the above mentioned functionalities.
 
-Project Github Repo Link - https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment
+Project Github Repository Link - [Github repo link](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment)
 
-Deployment link - http://youtubescraper-env.eba-pi3d5tup.ap-northeast-1.elasticbeanstalk.com
+AWS Deployment Link - [Click here for live site](http://youtubescraper-env.eba-pi3d5tup.ap-northeast-1.elasticbeanstalk.com)
 
 ## Screenshots
 Screenshot 1
 
-![Home Page Loading...](https://raw.githubusercontent.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/main/Screenshots/ss2.png)
+![Home Page Loading...](Screenshots/ss1.png"Home Page")
 
 Screenshot 2
 
-![Scraped Result Loading...](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/blob/main/Screenshots/ss2.png?raw=true)
+![Scraped Result Loading...](Screenshots/ss2.png"Scraped Result")
+
 
 ## Requirements
 
@@ -49,10 +50,14 @@ This application requires the following Python libraries:
 
 1. Clone this repository.
 2. Install the dependencies.
-    'pip install -r requirements.txt'
+
+    $ pip install -r requirements.txt
+
 3. Download the Chrome driver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and add it to your system path.
 4. Run the application:
-    'python app.py'
+
+    $ python app.py
+
 5. Open your web browser and go to http://127.0.0.1:8000 to see the application running.
 
 
