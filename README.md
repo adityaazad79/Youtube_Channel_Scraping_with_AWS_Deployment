@@ -29,8 +29,6 @@ Screenshot 2
 
 ![Scraped Result Loading...](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/blob/main/Screenshots/ss2.png?raw=true)
 
-![HacktoberFest 2021](https://github.com/ossamamehmood/Hacktoberfest2022/raw/main/.github/logo.png)
-
 ## Requirements
 
 This application requires the following Python libraries:
