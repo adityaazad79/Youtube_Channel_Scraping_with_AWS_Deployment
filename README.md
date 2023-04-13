@@ -23,12 +23,13 @@ Deployment link - http://youtubescraper-env.eba-pi3d5tup.ap-northeast-1.elasticb
 ## Screenshots
 Screenshot 1
 
-![Home Page Loading...](https://raw.githubusercontent.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/main/Screenshots/ss2.png?raw=true"Home Page")
+![Home Page Loading...](https://raw.githubusercontent.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/main/Screenshots/ss2.png)
 
 Screenshot 2
 
-![Scraped Result Loading...](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/blob/main/Screenshots/ss2.png?raw=true"Scraped Result")
+![Scraped Result Loading...](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment/blob/main/Screenshots/ss2.png?raw=true)
 
+![HacktoberFest 2021](https://github.com/ossamamehmood/Hacktoberfest2022/raw/main/.github/logo.png)
 
 ## Requirements
 
