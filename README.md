@@ -18,7 +18,7 @@ The project has been deployed on AWS successfully with all the above mentioned f
 
 Project Github Repository Link - [Github repo link](https://github.com/adityaazad79/Youtube_Channel_Scraping_with_AWS_Deployment)
 
-AWS Deployment Link - [Click here for live site](http://youtubescraper-env.eba-pi3d5tup.ap-northeast-1.elasticbeanstalk.com)
+AWS Deployment Link - [Click here for live site](http://youtubescraper-env.eba-pi3d5tup.ap-northeast-1.elasticbeanstalk.com) (Link Down)
 
 ## Screenshots
 Screenshot 1
